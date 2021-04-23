@@ -1,11 +1,11 @@
 # Site settings
-author: Chelsea Ashworth
-title: 
+author: Chelsealandsky
+title: Life on the Rails 
 header-img: img/home-bg.png
 email: ashworthca@gmail.com
-copyright_name: Chelsea Ashworth
+copyright_name: Chelsealandsky
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning to Code 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  chelsealandsky
