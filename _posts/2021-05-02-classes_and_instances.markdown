@@ -21,7 +21,7 @@ Class Chelsea
 	   end
 		 
 	   def hello_there                                 #instance method
-	       puts "hello, I'm Chelsea 1.0
+	       puts "hello, I'm Chelsea 1.0"
     end
 		
 end
