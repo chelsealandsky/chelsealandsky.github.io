@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Classes and Instances"
-date:       2021-05-02 14:09:14 +0000
+date:       2021-05-02 10:09:14 -0400
 permalink:  classes_and_instances
 ---
 
@@ -13,14 +13,19 @@ Methods defined in classes that are not class methods with the 'self' identifier
 
 In example:
 
+```
 Class Chelsea
-   def self.hello                                                        #class method
-	    puts "hello I'm Chelsea"
-	 end
-		def hello_there                                                   #instance method
-		   puts "hello I'm Chelsea 1.0"
-	 end
+
+     def self.hello                                       #class method
+	       puts "hello, I'm Chelsea"
+	   end
+		 
+	   def hello_there                                 #instance method
+	       puts "hello, I'm Chelsea 1.0
+    end
+		
 end
+```
 
 In the above class method, calling Chelsea.hello would put "hello I'm Chelsea" just fine because it is a class method being called on the class, but calling Chelsea.hello_there would cause a NoMethodError because you cannot call an instance method on the class itself. To get this instance method to work, we would have to call it on an instance of the Chelsea class. If we try Chelsea.new.hello_there we would see "hello, I'm Chelsea 1.0", meaning this instance method works on this newly created instance of the Chelsea class. If we tried calling Chelsea.new.hello, however, we would get another NoMethodError because we cannot call a class method on an instance of that object. 
 
