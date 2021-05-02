@@ -22,7 +22,7 @@ Class Chelsea
 		 
 	   def hello_there                                 #instance method
 	       puts "hello, I'm Chelsea 1.0"
-    end
+     end
 		
 end
 ```
