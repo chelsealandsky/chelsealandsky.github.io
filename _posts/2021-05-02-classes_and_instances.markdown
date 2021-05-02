@@ -18,7 +18,7 @@ Class Chelsea
 
      def self.hello                                       #class method
 	       puts "hello, I'm Chelsea"
-	   end
+     end
 		 
 	   def hello_there                                 #instance method
 	       puts "hello, I'm Chelsea 1.0"
